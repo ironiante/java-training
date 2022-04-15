@@ -29,7 +29,7 @@ int resultado4=number1* number2;
 //_________________________________________________________________________
 // logicos,relacion,comparacion,booleanos
 /**
- * > , >=,<,<==,==(comparacion);!=(distinto),&&(and),(or), !true(negacion)
+ * > , >=,<,<==,==(comparacion);!=(distinto),&&(and),||(or), !true(negacion)
  * _____________________________________________________________________
   */
 // operadores de asignacion
