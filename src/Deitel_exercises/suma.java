@@ -22,7 +22,8 @@ int suma;
 // accion
 
 suma=numero1+numero2; // suma los numeros , despues almacena el total en suma.
-        System.out.println("la suma es " + suma);
+        System.out.println("la suma es " + suma
+        );
 
     }
 }
