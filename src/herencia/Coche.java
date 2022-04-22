@@ -18,6 +18,10 @@ public class Coche {
         this.largo = largo;
     }
 
+    public Coche(String color, String fabricante, String modelo, Double peso, Double lardo) {
+
+    }
+
     // metodo to string nos permite imprimir atraves de la consola lo que son los objetos creados
     // apartir de esta clase
 

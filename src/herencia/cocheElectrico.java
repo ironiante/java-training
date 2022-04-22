@@ -21,6 +21,11 @@ public class cocheElectrico extends Coche {
             this.motorelectrico = motorelectrico;
 
     }
+    //vamos a sobrecargar un constructor para poder utilizar el super, le colocamos todos los atributos de la clase coche.
+    public cocheElectrico( String color,String fabricante,String modelo,Double peso,Double lardo, String motorelectrico ){
+    super(color,fabricante,modelo,peso,lardo );
+    this.motorelectrico = motorelectrico;
+    }
 
     @Override
     public String toString() {

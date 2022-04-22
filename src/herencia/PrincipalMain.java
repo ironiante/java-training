@@ -19,7 +19,9 @@ public class PrincipalMain {
     objeto2.modelo="2022";
 
         System.out.println(objeto2);
-
+        cocheElectrico objetoSuper = new cocheElectrico(); // no se puede pasar todos los atributos del constructor principal
+        objetoSuper.color="amarillo";
+        System.out.println(objetoSuper);
 
     }
 
