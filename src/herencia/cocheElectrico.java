@@ -26,6 +26,12 @@ public class cocheElectrico extends Coche {
     super(color,fabricante,modelo,peso,lardo );
     this.motorelectrico = motorelectrico;
     }
+ // vamos a sobreescribir el codigo , colocando que se multiplique * 2 la velocidad.
+    @Override
+    public void acelerar(Integer cantidad) {
+            Integer cantidadAjustada=cantidad*2;
+        super.acelerar(cantidad);
+    }
 
     @Override
     public String toString() {
