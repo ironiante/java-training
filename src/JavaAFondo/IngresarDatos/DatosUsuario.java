@@ -19,9 +19,7 @@ public static void main(String[] args) {
 // leemos la altura
     double altura = scanner.nextDouble();
 // mostramos los datos por consola
-    System.out.println("Nombre: "+nom
-            +" Edad: "+edad
-            +" Altura : "+altura);
+    System.out.println("Nombre: "+nom   +" Edad: "+edad  +" Altura : "+altura);
 }
 
 }
